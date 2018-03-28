@@ -13,7 +13,7 @@ install:
 - docker push tuchphon/se234-lab10-backend
 - docker pull tuchphon/se234-lab10-client
 script:
-- docker-compose -H "$DOCKER_HOST" up -d
+- docker-compose -H "$DOCKER_HOST" up 
 cache:
   directories:
   - "$HOME/.m2"
