@@ -1,5 +1,5 @@
 version: '3.3'
-service:
+services:
  backend:
   image: tuchphon/se234-lab10-backend:latest
   ports:
@@ -7,4 +7,4 @@ service:
  frontend:
   image: tuchphon/se234-lab10-client:latest
   ports:
-  -"8081:80"
+   - "8081:80"
